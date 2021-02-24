@@ -27,15 +27,15 @@
 <img src="https://user-images.githubusercontent.com/70570798/108961786-2b28fb00-76bb-11eb-865a-86509959ef03.png"  width="350" height="600">
 <br />
 
-3-1. 상세페이지 > 목표 상세
+3. 상세페이지 > 목표 상세
 <img src="https://user-images.githubusercontent.com/70570798/108961491-c79ecd80-76ba-11eb-8be2-fc1f964c3630.png"  width="350" height="600">
 <br />
 
-3-2. 상세페이지 > 도장판
+4. 상세페이지 > 도장판
 <img src="https://user-images.githubusercontent.com/70570798/108961585-e735f600-76ba-11eb-848b-dee46e2fda3d.png"  width="350" height="600">
 <br />
 
-4. 목표 달성 리스트(공든탑)
+5. 목표 달성 리스트(공든탑)
 <img src="https://user-images.githubusercontent.com/70570798/108961669-06cd1e80-76bb-11eb-8e64-95862643c378.png"  width="350" height="600">
 <br />
 

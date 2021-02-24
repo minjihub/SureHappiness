@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.surehappiness.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="소확행"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".activity.PwCheckAndDeleteActivity" />
+        <activity android:name=".activity.PwCheckAndUpdateActivity" />
+        <activity android:name=".activity.UserUpdateActivity" />
+        <activity android:name=".activity.JoinActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.FindAccount" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.Navigation" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.StampActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.PurposeModify" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.NewStampActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".activity.NewSplash" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.CreatePurpose" android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.LoginActivity" android:screenOrientation="portrait" />
+
+        <activity android:name=".activity.NewPwUpdateActivity" android:screenOrientation="portrait" />
+
+        <service
+            android:name=".service.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout
+    android:id="@+id/addBtn"
+    android:layout_width="170dp"
+    android:layout_height="170dp"
+    android:layout_marginLeft="20dp"
+    android:background="@drawable/radius_box"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_add"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/success_list"
+        android:icon="@drawable/ic_success_list"
+        android:title="공든탑"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_border_all"
+        android:title="리스트"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/ranking"
+        android:icon="@drawable/ic_rank"
+        android:title="랭킹"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mypage"
+        android:icon="@drawable/ic_mypage"
+        android:title="마이페이지"
+        app:showAsAction="ifRoom"/>
+
+</menu>

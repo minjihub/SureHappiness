@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App</string>
+
+    <string name="server_connect_fail">서버 연결이 원활하지 않습니다.</string>
+    <string name="network_fail">네트워크 연결 상태를 확인해주세요.</string>
+    <string name="login_fail">아이디 또는 비밀번호를 다시 확인해 주세요.</string>
+    <string name="error">문제가 발생하였습니다. 다시 시도 해주세요.</string>
+</resources>

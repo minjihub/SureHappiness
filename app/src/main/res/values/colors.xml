@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorSuccess">#f5899e</color>
+    <color name="colorFail">#847afd</color>
+    <color name="colorOnGoing">#fdce73</color>
+    <color name="colorText">#333333</color>
+    <color name="colorGray">#959595</color>
+    <color name="backgroundGray">#E6E6E6</color>
+    <color name="backgroundLightGray">#FAFAFA</color>
+    <color name="dividerGray">#f0f0f0</color>
+    <color name="colorNotice">#e21a1a</color>
+    <color name="colorGreen">#4bc38b</color>
+    <color name="colorTextGray">#959595</color>
+    <color name="colorStamp">#ffa600</color>
+    <color name="whiteColor">#fff</color>
+
+</resources>

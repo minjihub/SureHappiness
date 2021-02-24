@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="join"
+            type="com.surehappiness.app.activity.JoinActivity" />
+    </data>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.JoinActivity">
+
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:id="@+id/join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="회원가입"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorText"
+                android:fontFamily="@font/notosans_semibold" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff">
+                <EditText
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="이름"
+                    android:textSize="16sp"
+                    android:background="@null"
+                    android:inputType="textPersonName"/>
+
+                <View
+                    android:layout_marginTop="60dp"
+                    style="@style/Divider"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#fff">
+                <EditText
+                    android:id="@+id/user_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="아이디"
+                    android:textSize="16sp"
+                    android:background="@null"
+                    android:inputType="textPersonName"/>
+
+                <View
+                    android:layout_marginTop="60dp"
+                    style="@style/Divider"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#fff">
+                <EditText
+                    android:id="@+id/user_pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="비밀번호"
+                    android:textSize="16sp"
+                    android:background="@null"
+                    android:inputType="textPassword"/>
+
+                <View
+                    android:layout_marginTop="60dp"
+                    style="@style/Divider"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#fff">
+                <EditText
+                    android:id="@+id/user_pw2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="비밀번호 확인"
+                    android:textSize="16sp"
+                    android:background="@null"
+                    android:inputType="textPassword"/>
+
+                <View
+                    android:layout_marginTop="60dp"
+                    style="@style/Divider"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#fff">
+                <EditText
+                    android:id="@+id/user_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="이메일 (아이디 분실 시 사용됩니다.)"
+                    android:textSize="16sp"
+                    android:background="@null"
+                    android:inputType="textPersonName"/>
+
+                <View
+                    android:layout_marginTop="60dp"
+                    style="@style/Divider"/>
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorNotice"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/joinBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorGreen"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="가입하기"
+                android:textSize="18sp"
+                android:textColor="#fff" />
+
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

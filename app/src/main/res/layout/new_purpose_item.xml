@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="purpose_item"
+            type="com.surehappiness.app.activity.purposelist.adapter.NewPurposeListAdapter" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/purpose_item"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:background="@drawable/radius_box"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/state"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/ic_circle"/>
+
+        <TextView
+            android:id="@+id/total_stamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorText"
+            android:text="0/0" />
+
+
+
+        <TextView
+            android:id="@+id/purpose_name"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="101dp"
+            android:text="목표 생성하기"
+            android:textSize="16sp"
+            android:textColor="@color/colorText"
+            android:fontFamily="@font/notosans_semibold"/>
+
+        <TextView
+            android:id="@+id/purpose_script"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="128dp"
+            android:text="+ 버튼으로 생성해보세요!"
+            android:textColor="@color/colorText"
+            android:textSize="12sp"/>
+
+    </FrameLayout>
+</layout>
